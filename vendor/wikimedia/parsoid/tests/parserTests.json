@@ -1,0 +1,129 @@
+{
+	"parsoid": {
+		"project": "mediawiki/services/parsoid",
+		"targets": {
+			"annotationParserTests.txt": {},
+			"attributeExpanderTests.txt": {},
+			"domNormalizerTests.txt": {},
+			"encapParserTests.txt": {},
+			"i18nParserTests.txt": {},
+			"sectionWrappingParserTests.txt": {},
+			"regressions.txt": {},
+			"selserWrappingParserTests.txt": {},
+			"separatorTests.txt": {},
+			"tableFixupsParserTests.txt": {}
+		}
+	},
+	"core": {
+		"project": "mediawiki/core",
+		"latestCommit": "778eaa609c6fc014885fdc2ca33dd93f9567eab6",
+		"targets": {
+			"comments.txt": {
+				"path": "tests/parser/comments.txt",
+				"expectedSHA1": "38288b6baa071579b9cbb410175c07ad92d6c56a"
+			},
+			"badCharacters.txt": {
+				"path": "tests/parser/badCharacters.txt",
+				"expectedSHA1": "e2f899e0190e8cc2bece52e543b183dc5b0ab0a2"
+			},
+			"definitionLists.txt": {
+				"path": "tests/parser/definitionLists.txt",
+				"expectedSHA1": "cfd0f02b02d8c1d5533e50450fdec007d03de332"
+			},
+			"extLinks.txt": {
+				"path": "tests/parser/extLinks.txt",
+				"expectedSHA1": "6b02954d42f54e6f4b96b964e49095075cc86e5d"
+			},
+			"headings.txt": {
+				"path": "tests/parser/headings.txt",
+				"expectedSHA1": "674aa5db17f1e01d26e3d96ba7a7e2ff56cc53f3"
+			},
+			"indentPre.txt": {
+				"path": "tests/parser/indentPre.txt",
+				"expectedSHA1": "319114cd7afc669fc180c8bc77ecbaec04fc6878"
+			},
+			"indicators.txt": {
+				"path": "tests/parser/indicators.txt",
+				"expectedSHA1": "ce4a7b5106c4ad884d806bb046e2dac23650e909"
+			},
+			"interlanguageLinks.txt": {
+				"path": "tests/parser/interlanguageLinks.txt",
+				"expectedSHA1": "02afc344588207be9f4275b796e3c034532ba084"
+			},
+			"interwikiLinks.txt": {
+				"path": "tests/parser/interwikiLinks.txt",
+				"expectedSHA1": "cac1f49ca9d3c7d1d3c6030b9f676a6dcbf598e0"
+			},
+			"langParserTests.txt": {
+				"path": "tests/parser/langParserTests.txt",
+				"expectedSHA1": "4fe17dc6ecf53c7990891d07839d0bf53844abcd"
+			},
+			"legacyHeadings.txt": {
+				"path": "tests/parser/legacyHeadings.txt",
+				"expectedSHA1": "ac56efd0f60086ef05ce566120e77c8346fe30a5"
+			},
+			"legacyMedia.txt": {
+				"path": "tests/parser/legacyMedia.txt",
+				"expectedSHA1": "e811ac458936db2f7be0e4f4b7c6471b252cd090"
+			},
+			"magicLinks.txt": {
+				"path": "tests/parser/magicLinks.txt",
+				"expectedSHA1": "e6fad7c8d28ab33cc151b4fd0f5eece05729348c"
+			},
+			"magicWords.txt": {
+				"path": "tests/parser/magicWords.txt",
+				"expectedSHA1": "68679f4e5606c966e1b85c0d708fcfac5e4783b7"
+			},
+			"media.txt": {
+				"path": "tests/parser/media.txt",
+				"expectedSHA1": "ff7a68e61cb370ff4090fc7aa5c480b4726a671b"
+			},
+			"parserTests.txt": {
+				"path": "tests/parser/parserTests.txt",
+				"expectedSHA1": "f8a3d04806a432876161d24d7214d3a4d5e599a3"
+			},
+			"preTags.txt": {
+				"path": "tests/parser/preTags.txt",
+				"expectedSHA1": "0d59819b43876d6f72b10626f96910e945cc44fd"
+			},
+			"pst.txt": {
+				"path": "tests/parser/pst.txt",
+				"expectedSHA1": "1f112b32b59b8792c4d23c968452a3b3eaad2d68"
+			},
+			"pWrapping.txt": {
+				"path": "tests/parser/pWrapping.txt",
+				"expectedSHA1": "9f4f9812521ba7498ba32ea12fb41e8ff193a862"
+			},
+			"preprocessor.txt": {
+				"path": "tests/parser/preprocessor.txt",
+				"expectedSHA1": "cd277668331ac87d58c3f3ec3a48749b0fecdce6"
+			},
+			"quotes.txt": {
+				"path": "tests/parser/quotes.txt",
+				"expectedSHA1": "1d6681c2fc8570dd136072b40fdaf45d6d96b950"
+			},
+			"redirects.txt": {
+				"path": "tests/parser/redirects.txt",
+				"expectedSHA1": "0bdeb1119ff7043550752e9cca49ade2e5698b72"
+			},
+			"tables.txt": {
+				"path": "tests/parser/tables.txt",
+				"expectedSHA1": "6186d60f05730c132ab14a81d52e327cdf85e6fe"
+			},
+			"wtEscaping.txt": {
+				"path": "tests/parser/wtEscaping.txt",
+				"expectedSHA1": "f175c38237d1ab29e7cac7234bbffc9890fb18bf"
+			}
+		}
+	},
+	"TMH": {
+		"project": "mediawiki/extensions/TimedMediaHandler",
+		"latestCommit": "45745d6d3facc08d92980c69d690a673eb1125fc",
+		"targets": {
+			"timedMediaHandlerParserTests.txt": {
+				"path": "tests/parser/parserTests.txt",
+				"expectedSHA1": "fbf20107153b3c6c7e8d6f8b4125855f52443bd6"
+			}
+		}
+	}
+}
